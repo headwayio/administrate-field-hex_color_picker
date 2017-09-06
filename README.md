@@ -10,6 +10,12 @@ Add to your `Gemfile`:
 gem 'administrate-field-hex_color_picker'
 ```
 
+If not already including jQuery in your javascript manifest file, add the following line to `app/assets/javascripts/application.js`:
+
+```javascript
+//= require jquery
+```
+
 Run:
 
 ```bash
